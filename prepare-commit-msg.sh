@@ -8,7 +8,7 @@
 # This way you can customize which branches should be skipped when
 # prepending commit message. 
 if [ -z "$BRANCHES_TO_SKIP" ]; then
-  BRANCHES_TO_SKIP=(master develop test)
+  BRANCHES_TO_SKIP=(master develop testing)
 fi
 
 # This way, it will only work for branches that entail the JIRA ticket convention:  "ABC-123"
